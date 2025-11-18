@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thanks for applying | Talent Bridge</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body { margin: 0; font-family: 'Inter', sans-serif; background: #f6f8fb; color: #1c1c28; }
+    .wrap { min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 40px 16px; }
+    .card { max-width: 640px; width: 100%; background: #fff; border-radius: 24px; box-shadow: 0 24px 60px rgba(13,16,35,0.12); padding: 48px 40px; text-align: center; }
+    .pill { display: inline-flex; align-items: center; gap: 12px; padding: 12px 18px; border-radius: 999px; background: rgba(31,55,255,0.12); color: #1f37ff; font-weight: 600; margin-bottom: 32px; }
+    h1 { font-size: 2.5rem; margin-bottom: 16px; color: #1f37ff; }
+    p { font-size: 1.1rem; margin-bottom: 24px; line-height: 1.6; }
+    .timeline { text-align: left; margin-top: 40px; }
+    .timeline h2 { font-size: 1.3rem; margin-bottom: 16px; }
+    .timeline ul { list-style: none; padding: 0; margin: 0; }
+    .timeline li { margin-bottom: 18px; padding-left: 28px; position: relative; }
+    .timeline li::before { content: ''; position: absolute; left: 0; top: 6px; width: 12px; height: 12px; border-radius: 50%; background: #1f37ff; }
+    .actions { margin-top: 40px; display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; }
+    .actions a { display: inline-flex; align-items: center; gap: 8px; padding: 14px 22px; border-radius: 14px; text-decoration: none; font-weight: 600; transition: transform 0.2s ease, box-shadow 0.2s ease; }
+    .actions a.primary { background: #1f37ff; color: #fff; box-shadow: 0 10px 24px rgba(31,55,255,0.28); }
+    .actions a.secondary { background: #eef1ff; color: #1f37ff; }
+    .actions a:hover { transform: translateY(-2px); box-shadow: 0 16px 32px rgba(31,55,255,0.22); }
+    @media (max-width: 640px) { .card { padding: 32px 24px; } h1 { font-size: 2.1rem; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="pill">✔ Application received</div>
+      <h1>Thank you for applying!</h1>
+      <p>We’ve emailed you a confirmation. Our recruiting team is already reviewing everything you shared.</p>
+      <p>Here’s what comes next:</p>
+
+      <div class="timeline">
+        <h2>The next 48 hours</h2>
+        <ul>
+          <li>We double-check your Application Quality Score against open roles.</li>
+          <li>If there’s a match, we send a link to book a quick video chat.</li>
+          <li>If nothing fits right now, we keep you in our talent circle and reach out the moment something opens up.</li>
+        </ul>
+      </div>
+
+     <div class="actions">
+  <a class="primary" href="https://calendly.com/talentbridge-team/intro-call?utm_source=talentbridge_site&utm_medium=thank_you_page&utm_campaign=conduent_q4_launch" target="_blank" rel="noopener">Book a 15‑min intro</a>
+  <a class="secondary" href="https://talentbridge-careers.notion.site/resources?utm_source=talentbridge_site&utm_medium=thank_you_page&utm_campaign=conduent_q4_launch" target="_blank" rel="noopener">Download remote-ready checklist</a>
+</div>
+
+      <p style="margin-top: 48px; font-size: 0.95rem; color: #4c4e64;">
+        Questions? Email <strong>TalentBridge.conduent@outlook.com</strong> and we’ll jump in.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
